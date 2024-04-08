@@ -1,0 +1,78 @@
+{
+    "usuarios": {
+      "usuarioId1": {
+        "correo": "usuario1@ejemplo.com",
+        "pais": "España",
+        "mejorTiempo": 120.00,
+        "logros": {
+          "corredor": true,
+          "Cazamonedas": true
+        },
+        "skins": {
+          "porDefecto": true,
+          "Abuela": false
+       
+        },
+        "estadisticas": {
+          "monedas": 1000,
+          "trofeos": 5,
+          "clasificacionGlobal": 500
+        },
+        "mejorMarca": {
+        "tiempo": 235.00
+        }
+      }
+    },
+    "desafios": {
+      "diarios": {
+        "desafioId1": {
+          "descripcion": "Recolectar 100 tortillas en una carrera",
+          "recompensa": 50
+        },
+        "desafioId2": {
+          "descripcion": "Aguanta 5 minutos sin tropezarte",
+          "recompensa": 75
+        }
+      }
+    },
+    "clasificaciones": {
+      "global": {
+        "usuarioId1": {
+          "mejorTiempo": 120.00,
+          "nombreUsuario": "Usuario1"
+        },
+        "usuarioId2": {
+          "mejorTiempo": 125.00,
+          "nombreUsuario": "Usuario2"
+        }
+      }
+    },
+
+    "tienda": {
+      "skins": {
+        "porDefecto": {
+          "costo": 0,
+          "habilidades": {
+            "velocidad": 1,
+            "agilidad": 1
+          }
+        },
+        "edicionEspecial": {
+          "costo": 500,
+          "habilidades": {
+            "velocidad": 2,
+            "agilidad": 2
+          }
+        }
+
+      },
+      "cajasBotin": {
+        "caja1": {
+          "costo": 100,
+          "contiene": ["Abuela", "skinId2", 100]
+        }
+        
+      }
+    }
+  }
+  

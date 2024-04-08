@@ -1,12 +1,13 @@
 using UnityEngine;
 
-public class MovimientoJugador : MonoBehaviour
+public class Movimiento : MonoBehaviour
 {
     public Transform contenedorCarriles;
     public Transform[] posicionesCarriles;
     public int indiceCarrilActual = 1;
     public float velocidadHorizontalJugador = 10f;
     public float fuerzaSalto = 10f;
+    public float gravedadExtra = 2.5f; // Ajusta este valor para controlar cuánto más rápido cae el personaje
     private Rigidbody rb;
 
     void Start()
@@ -41,6 +42,11 @@ public class MovimientoJugador : MonoBehaviour
     {
         Vector3 objetivoPosicion = new Vector3(posicionesCarriles[indiceCarrilActual].position.x, transform.position.y, transform.position.z);
         transform.position = Vector3.MoveTowards(transform.position, objetivoPosicion, velocidadHorizontalJugador * Time.fixedDeltaTime);
+
+        if (!EstaEnElSuelo())
+        {
+            AplicarGravedadExtra();
+        }
     }
 
     void MoverCarril(int direccion)
@@ -51,6 +57,12 @@ public class MovimientoJugador : MonoBehaviour
     void Salto()
     {
         rb.AddForce(Vector3.up * fuerzaSalto, ForceMode.Impulse);
+    }
+
+    void AplicarGravedadExtra()
+    {
+        
+        rb.AddForce(Vector3.down * gravedadExtra);
     }
 
     bool EstaEnElSuelo()

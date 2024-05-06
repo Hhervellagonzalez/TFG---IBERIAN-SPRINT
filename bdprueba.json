@@ -1,0 +1,13 @@
+{
+    "usuarios": {
+      "usuarioId1": {
+        "nombreDeUsuario": "123",
+        "contraseña": "123"
+      },
+      "usuarioId2": {
+        "nombreDeUsuario": "hugo",
+        "contraseña": "123"
+      }    
+    }
+}
+  

@@ -1,0 +1,92 @@
+{
+  "usuarios": {
+    "Usuario1": {
+      "aspectos": [
+        "default"
+      ],
+      "logros": "",
+      "monedas": 0,
+      "password": "Usuario1",
+      "recordDistancia": 0,
+      "username": "Usuario1"
+    },
+    "Usuario2": {
+      "aspectos": [
+        "default"
+      ],
+      "logros": "",
+      "monedas": 0,
+      "password": "Usuario2",
+      "recordDistancia": 0,
+      "username": "Usuario2"
+    },
+    "Usuario3": {
+      "aspectos": [
+        "default",
+        "Big Vegas",
+        "Granny"
+      ],
+      "logros": {
+        "First Steps": true
+      },
+      "monedas": 4002,
+      "password": "Usuario3",
+      "recordDistancia": 132,
+      "username": "Usuario3"
+    },
+    "Usuario4": {
+      "aspectos": [
+        "default"
+      ],
+      "logros": "",
+      "monedas": 0,
+      "password": "Usuario4",
+      "recordDistancia": 0,
+      "username": "Usuario4"
+    },
+    "Usuario5": {
+      "aspectos": [
+        "default"
+      ],
+      "logros": "",
+      "monedas": 6,
+      "password": "Usuario5",
+      "recordDistancia": 0,
+      "username": "Usuario5"
+    },
+    "Usuario6": {
+      "aspectos": [
+        "default"
+      ],
+      "logros": "",
+      "monedas": 0,
+      "password": "Usuario6",
+      "recordDistancia": 74,
+      "username": "Usuario6"
+    },
+    "Usuario7": {
+      "aspectos": [
+        "default"
+      ],
+      "logros": {
+        "First Steps": true
+      },
+      "monedas": 11,
+      "password": "Usuario7",
+      "recordDistancia": 195,
+      "username": "Usuario7"
+    },
+    "Usuario8": {
+      "aspectos": [
+        "default"
+      ],
+      "logros": {
+        "First Steps": true
+      },
+      "monedas": 13,
+      "password": "Usuario8",
+      "recordDistancia": 132,
+      "username": "Usuario8"
+    }
+  }
+}

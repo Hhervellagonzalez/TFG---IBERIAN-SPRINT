@@ -1,0 +1,32 @@
+.main .block-container {
+    max-width: 80%;
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+}
+.stTable thead tr th {
+    font-size: 24px;
+    padding: 10px;
+}
+.stTable tbody tr td {
+    font-size: 22px;
+    padding: 10px;
+}
+.css-1d391kg {
+    font-size: 35px;
+}
+.css-145kmo2 {
+    font-size: 25px;
+}
+.stButton button {
+    background-color: #1DB954;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.stButton button:hover {
+    background-color: #17a351;
+    color: white;
+}
